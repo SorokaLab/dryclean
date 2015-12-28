@@ -17,6 +17,14 @@
 .stack {
 	position: relative;
 	padding: 100px 0px;
+	text-align: center;
+}
+
+.title-blog {
+	position: relative;
+	bottom: 57px;
+	font-size: 5em;
+	color: white;
 }
 /* Stack */
 .stack ul {
@@ -24,6 +32,7 @@
 	margin: 0 auto;
 	padding: 0;
 	list-style: none;
+	color:white;
 }
 
 .stack ul li {
@@ -89,9 +98,10 @@ ul.stack__images {
 	background: none;
 	display: block;
 	padding: 0;
+	padding-bottom: 10px;
 	overflow: hidden;
 	width: 36px;
-	height: 36px;
+	/*height: 36px;*/
 	margin: 10px auto 0;
 	font-size: 30px;
 	position: relative;
@@ -126,13 +136,14 @@ ul.stack__titles {
 	margin: 0;
 	text-align: center;
 	font-size: 1.4em;
+	color: white;
 }
 
-.stack__titles blockquote footer {
+/*.stack__titles blockquote footer {
 	font-size: 50%;
 	padding-bottom: 1em;
 	font-family: 'Montserrat', Arial, sans-serif;
-}
+}*/
 
 .stack__titles li {
 	pointer-events: none;
