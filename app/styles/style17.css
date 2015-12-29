@@ -7,18 +7,26 @@
   transform-origin: 0x 150px;
   -webkit-transform: scale(0, 1) translate(0, 0);
   transform: scale(0, 1) translate(0, 0);
-  -webkit-animation: moving-panel 3s 1 alternate forwards;
-  animation: moving-panel 3s 1 alternate forwards; }
+  -webkit-animation: moving-panel 8s 1 normal forwards;
+  animation: moving-panel 8s 1 normal forwards; }
   .colortext .anim-shape:nth-child(1) {
-    fill: #0e1826; }
+    fill: black; }
   .colortext .anim-shape:nth-child(2) {
-    fill: #166973; }
+    fill: white; }
   .colortext .anim-shape:nth-child(3) {
-    fill: #65bfa6; }
+    fill: black; }
   .colortext .anim-shape:nth-child(4) {
-    fill: #f2cd5c; }
+    fill: white; }
   .colortext .anim-shape:nth-child(5) {
-    fill: #f26444; }
+    fill: black; }
+  .colortext .anim-shape:nth-child(6) {
+    fill: white; }
+  .colortext .anim-shape:nth-child(7) {
+    fill: black; }
+  .colortext .anim-shape:nth-child(8) {
+    fill: white; }
+  .colortext .anim-shape:nth-child(9) {
+    fill: black; }
 
 
 
@@ -27,7 +35,7 @@
   transform: translate(10px, 10px); }
 
 .anim-shape--shadow {
-  fill: #000;
+  fill: black;
   fill-opacity: 0.2; }
 
 @-webkit-keyframes moving-panel {
